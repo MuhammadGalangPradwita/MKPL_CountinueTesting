@@ -2,26 +2,26 @@ package src.main.java;
 
 public class Counter {
 
-	private int count;
+	private int Currentcount;
 	
 	public Counter() {
 		this.reset();
 	}
 		
 	public void reset() {
-		count = 0;
+		Currentcount = 0;
 	}
 	
 	public void increment() {
-		count++;
+		Currentcount++;
 	}
 	
 	public void decrement() {
-		count--;
+		Currentcount--;
 	}
 	
 	public int getCount() {
-		return count;
+		return Currentcount;
 	}
 	
 }
